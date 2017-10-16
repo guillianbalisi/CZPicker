@@ -357,6 +357,8 @@ typedef void (^CZDismissCompletionCallback)(void);
     if(self.checkmarkColor){
         cell.tintColor = self.checkmarkColor;
     }
+    
+    cell.textLabel.adjustsFontSizeToFitWidth = YES;
     return cell;
 }
 
